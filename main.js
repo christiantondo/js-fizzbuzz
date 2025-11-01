@@ -12,9 +12,10 @@ for (let i = 1; i <= 100; i++) {
 
     } else if (i % 5 == 0) {
         contenuto = `Buzz`;
-        
+
     }
 
+    document.getElementById("risultato").innerHTML += `<li>${contenuto}</li>`
 }
 
 console.log("Ciclo terminato");
